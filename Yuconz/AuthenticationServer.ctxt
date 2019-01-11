@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=AuthenticationServer()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ AuthenticationServer\r\n
+comment1.params=type\ accessLevel
+comment1.target=boolean\ authorise(User,\ int)
+comment1.text=\r\n\ Checks\ to\ see\ if\ the\ accessLevel\ of\ a\ User\ object\ is\ greater\ than\ or\ equal\ to\ the\ level\ passed\ through\ the\r\n\ parameter.\r\n\ @param\ the\ User\ object,\ int\ accessLevel\ to\ authorise.\r\n\ @return\ returns\ the\ boolean\ result\ of\ the\ method.\r\n
+comment2.params=newUser
+comment2.target=int\ authenticate(User)
+comment2.text=\r\n\ Returns\ the\ an\ int\ value\ based\ on\ the\ type\ of\ User\ object.\r\n\ @param\ the\ User\ object\r\n\ @return\ returns\ the\ default\ accessLevel\ based\ on\ the\ type\ of\ User\r\n
+comment3.params=userId\ accessLevel
+comment3.target=void\ reauthenticate(int,\ int)
+comment3.text=\r\n\ Logs\ the\ user\ out\ of\ the\ system\ and\ changes\ the\ accessLevel\ of\ the\ User\ to\ the\ one\ requested.\r\n\ @param\ the\ userId\ of\ a\ User\ object,\ the\ accessLevel\ you\ wish\ to\ have.\r\n
+comment4.params=userId\ password\ reqAccessLevel
+comment4.target=boolean\ authenticateLogin(int,\ java.lang.String,\ int)
+comment4.text=\r\n\ Returns\ a\ boolean\ result\ based\ on\ the\ given\ login\ details\ which\ is\ used\ for\ \r\n\ the\ User's\ login\ function.\r\n\ \r\n\ @param\ \ The\ userId\ you\ are\ logging\ on\ with,\ the\ password,\ the\ requested\ accessLevel\r\n\ @return\ \ \ \ \ true\ if\ details\ match,\ Or\ false\r\n
+comment5.params=userId
+comment5.target=boolean\ authenticateLogout(int)
+comment5.text=\r\n\ Returns\ a\ boolean\ result\ based\ on\ the\ given\ logout\ ID\ which\ is\ used\ for\ \r\n\ the\ User's\ logiout\ function.\r\n\ \r\n\ @param\ \ The\ userId\ you\ are\ logging\ on\ with,\ the\ password,\ the\ requested\ accessLevel\r\n\ @return\ \ \ \ \ true\ if\ details\ match,\ Or\ false\r\n
+comment6.params=thisUser\ userId
+comment6.target=boolean\ authenticatePDRecordRequest(User,\ int)
+comment6.text=\r\n\ Returns\ a\ boolean\ result\ based\ on\ the\ given\ logout\ ID\ which\ is\ used\ for\ \r\n\ the\ User's\ logiout\ function.\r\n\ \r\n\ @param\ \ The\ userId\ you\ are\ logging\ on\ with,\ the\ password,\ the\ requested\ accessLevel\r\n\ @return\ \ \ \ \ true\ if\ details\ match,\ Or\ false\r\n
+comment7.params=thisUser\ userId
+comment7.target=boolean\ authenticatePFRRecordRequest(User,\ int)
+comment7.text=\r\n\ Returns\ a\ boolean\ result\ based\ on\ the\ given\ logout\ ID\ which\ is\ used\ for\ \r\n\ the\ User's\ logiout\ function.\r\n\ \r\n\ @param\ \ The\ userId\ you\ are\ logging\ on\ with,\ the\ password,\ the\ requested\ accessLevel\r\n\ @return\ \ \ \ \ true\ if\ details\ match,\ Or\ false\r\n
+numComments=8

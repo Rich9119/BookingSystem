@@ -1,0 +1,9 @@
+Date of Birth: newDateOfBirth
+Address: oldAddress
+Town/City: oldCity
+County: oldCounty
+Postcode: oldPostcode
+Telephone Number: 123
+Mobile Number: 456
+Next of Kin: oldNextOfKin
+Next of Kin contact number: 789

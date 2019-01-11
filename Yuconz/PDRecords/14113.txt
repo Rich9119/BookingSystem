@@ -1,0 +1,11 @@
+Name: aName
+Surname: asurname
+Date of Birth: aDateOfBirth
+Address: aAddress
+Town/City: aCity
+County: aCounty
+Postcode: aPostcode
+Telephone Number: 123
+Mobile Number: 456
+Next of Kin: aNextOfKin
+Next of Kin contact number: 789

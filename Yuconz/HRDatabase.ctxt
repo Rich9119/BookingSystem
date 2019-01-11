@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=HRDatabase()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ HRDatabase\r\n
+comment1.params=userId\ name\ surname\ DOB\ address\ city\ county\ postcode\ landline\ mobileNum\ nextOfKin\ nextOfKinContactNum
+comment1.target=void\ createPDRecord(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ The\ method\ is\ called\ from\ User\ ->\ System\ ->\ this\ method.\ taking\ all\ the\ parementers\ which\ are\ passed\ from\ user.\ The\ method\ is\ validated\ in\ the\ system\ class,\ and\ creates\ the\ Record\ in\ the\ HRDatabase,\ adding\ the\ record\ to\ the\ ArrayList\ records\r\n\ Prints\ the\ information\ and\ saves\ it\ to\ a\ txt\ file\ which\ is\ stored\ in\ PDRecords\ directory.\r\n
+comment2.params=userId\ name\ managerDirector\ secondManagerDirector\ section\ jobTitle
+comment2.target=void\ createPFRRecord(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ The\ method\ is\ called\ from\ User\ ->\ System\ ->\ this\ method.\ taking\ all\ the\ parementers\ which\ are\ passed\ from\ user.\ The\ method\ is\ validated\ in\ the\ system\ class,\ and\ creates\ the\ Record\ in\ the\ HRDatabase,\ adding\ the\ record\ to\ the\ ArrayList\ records\r\n\ Prints\ the\ information\ and\ saves\ it\ to\ a\ txt\ file\ which\ is\ stored\ in\ PDRecords\ directory.\r\n
+comment3.params=userId
+comment3.target=void\ readPDRecord(int)
+comment3.text=\r\n\ The\ fucntion\ is\ called\ from\ User\ ->\ System\ -\ >\ then\ this\ method,\ which\ reads\ the\ information\ from\ the\ txt\ document,\ with\ the\ right\ userId,\ as\ all\ documents\ are\ named\ after\ userID's.\ The\ validation\ of\ access\ for\ this\ method\ is\ done\ in\ the\ system.\r\n
+comment4.params=userId
+comment4.target=void\ readPFRRecord(int)
+comment5.params=userId\ name\ surname\ DOB\ address\ city\ county\ postcode\ landline\ mobileNum\ nextOfKin\ nextOfKinContactNum
+comment5.target=void\ amendPDRecord(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment5.text=\r\n\ This\ method\ is\ very\ like\ the\ createPDRecord\ method,\ it\ is\ called\ from\ User\ ->\ System\ ->\ this\ method,\ which\ reassigns\ the\ values\ of\ attributes\ which\ hold\ the\ information.\ The\ validation\ of\ access\ for\ this\ method\ is\ done\ in\ the\ system\ class.\r\n\ The\ method\ amends\ the\ file\ with\ changes,\ and\ overwrites\ them.\ The\ functionality\ of\ the\ method\ assures\ with\ the\ loop,\ that\ there\ is\ a\ such\ file\ with\ the\ existing\ name,\ to\ ensure\ amending\ a\ file\ not\ creating\ a\ new\ file.\r\n
+comment6.params=userId\ name\ managerDirector\ secondManagerDirector\ section\ jobTitle
+comment6.target=void\ amendPFRRecord(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment6.text=\r\n\ This\ method\ is\ very\ like\ the\ createPDRecord\ method,\ it\ is\ called\ from\ User\ ->\ System\ ->\ this\ method,\ which\ reassigns\ the\ values\ of\ attributes\ which\ hold\ the\ information.\ The\ validation\ of\ access\ for\ this\ method\ is\ done\ in\ the\ system\ class.\r\n\ The\ method\ amends\ the\ file\ with\ changes,\ and\ overwrites\ them.\ The\ functionality\ of\ the\ method\ assures\ with\ the\ loop,\ that\ there\ is\ a\ such\ file\ with\ the\ existing\ name,\ to\ ensure\ amending\ a\ file\ not\ creating\ a\ new\ file.\r\n
+comment7.params=userId
+comment7.target=Record\ getRecordById(int)
+comment7.text=\r\n\ Used\ for\ testing\ purposes\r\n
+numComments=8
